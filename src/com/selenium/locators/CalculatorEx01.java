@@ -22,7 +22,7 @@ public class CalculatorEx01 {
 	driver.get("https://www.calculator.net/");
 	driver.findElement(By.xpath("//img[@src='//d26tpo4cm8sb6k.cloudfront.net/img/svg/all-calculators.svg']")).click();
 	
-	System.out.println(" ");
+	System.out.println(" hi how are you");
 	
 	
 	
