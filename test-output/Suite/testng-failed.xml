@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="uname" value="testing"/>
+    <parameter name="pass" value="testing"/>
+    <classes>
+      <class name="com.selenium.locators.TestNgParameter">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="Login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.locators.TestNgParameter -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test1(failed)">
+    <parameter name="uname" value="selenium"/>
+    <parameter name="pass" value="selenium"/>
+    <classes>
+      <class name="com.selenium.locators.TestNgParameter">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="Login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.locators.TestNgParameter -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
